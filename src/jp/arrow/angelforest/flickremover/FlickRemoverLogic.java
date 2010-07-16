@@ -91,7 +91,7 @@ public class FlickRemoverLogic {
                 if(row > 0) {
                     y += MARGIN*row;
                 }
-                Log.e(null, "col: " + col + ", row: " + row + ": x: " + x + ", y: " + y);
+//                Log.e(null, "col: " + col + ", row: " + row + ": x: " + x + ", y: " + y);
                 rowCharList.add(new FlickCharacter(x, y));
             }//col
 

@@ -74,8 +74,8 @@ public class FlickRemoverView extends View {
             //increment timer
             int gamestatus = FlickRemoverLogic.getInstance(context).getGameStatus();
             if(gamestatus == FlickRemoverLogic.STATUS_STARTED) {
-            	//TODO need to do something
-                timer += 1.0d/REFRESH_RATE;
+//                timer += 1.0d/REFRESH_RATE;
+                timer ++;
             }
             else if(gamestatus == FlickRemoverLogic.STATUS_READY) {
                 timer = 0.0d;
